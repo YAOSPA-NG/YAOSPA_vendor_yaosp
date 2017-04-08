@@ -1,3 +1,6 @@
 #!/system/bin/sh
 
+# arise 2.xx
+/system/su.d/arisesound_setprop
+# arise 3.xx
 /system/su.d/arisesound_services
