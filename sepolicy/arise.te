@@ -25,3 +25,6 @@ allow arise unlabeled:file rx_file_perms;
 # write logs and dts configs
 allow arise system_data_file:dir create_dir_perms;
 allow arise system_data_file:file create_file_perms;
+
+# find audioserver_service
+allow arise audioserver_service:service_manager { find };
