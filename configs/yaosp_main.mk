@@ -13,7 +13,11 @@
 # limitations under the License.
 
 include vendor/yaosp/configs/system_additions.mk
-    
+
+# Use ad-blocking hosts file
+PRODUCT_COPY_FILES += \
+    vendor/yaosp/prebuilt/etc/hosts:system/etc/hosts
+
 # Add YAOSPA version
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.yaosp.version=0.00 \
