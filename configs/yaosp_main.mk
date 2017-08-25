@@ -14,6 +14,9 @@
 
 include vendor/yaosp/configs/system_additions.mk
 
+# Include vendor overlays
+PRODUCT_PACKAGE_OVERLAYS += vendor/yaosp/overlay/common
+
 # Use ad-blocking hosts file
 PRODUCT_COPY_FILES += \
     vendor/yaosp/prebuilt/etc/hosts:system/etc/hosts
