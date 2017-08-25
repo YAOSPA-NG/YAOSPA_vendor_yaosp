@@ -1,3 +1,4 @@
+# Copyright (C) 2016 The Pure Experience Project
 # Copyright (C) 2016 Yank555.lu's AOSP Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,4 +13,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-include vendor/yaosp/configs/system_additions.mk
+# init.d script support
+PRODUCT_COPY_FILES += \
+    vendor/yaosp/prebuilt/bin/sysinit:system/bin/sysinit
+
+# Pure-specific init file
+PRODUCT_COPY_FILES += \
+    vendor/yaosp/prebuilt/etc/init.yaosp.rc:root/init.yaosp.rc
