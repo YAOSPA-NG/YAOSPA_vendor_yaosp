@@ -13,3 +13,10 @@
 # limitations under the License.
 
 include vendor/yaosp/configs/system_additions.mk
+    
+# Add YAOSPA version
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.yaosp.version=0.00 \
+    ro.yaosp.branch=7.1.2 \
+    ro.yaosp.buildbase=NZH54D \
+    ro.yaosp.builddate=2017-08-23
