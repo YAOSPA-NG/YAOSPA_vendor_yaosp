@@ -27,3 +27,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.yaosp.branch=7.1.2 \
     ro.yaosp.buildbase=NZH54D \
     ro.yaosp.builddate=2017-08-23
+
+# No asssitant for us, please
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.opa.eligible_device=false
