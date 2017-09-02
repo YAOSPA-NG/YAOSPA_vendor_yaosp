@@ -20,3 +20,9 @@ PRODUCT_COPY_FILES += \
 # Pure-specific init file
 PRODUCT_COPY_FILES += \
     vendor/yaosp/prebuilt/etc/init.yaosp.rc:root/init.yaosp.rc
+
+# Add bash shell
+PRODUCT_COPY_FILES += \
+    vendor/yaosp/prebuilt/bin/b:system/bin/b \
+    vendor/yaosp/prebuilt/bin/bash:system/bin/bash \
+    vendor/yaosp/prebuilt/etc/bash/bashrc:system/etc/bash/bashrc
