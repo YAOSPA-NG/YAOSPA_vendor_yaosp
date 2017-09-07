@@ -43,8 +43,8 @@ fi
 #done
 #unset i
 alias ls='ls --color=auto'
-alias sysro='mount -o remount,ro /system; mount | grep system'
-alias sysrw='mount -o remount,rw /system; mount | grep system'
+alias sysro='busybox mount -o remount,ro /system; mount | grep system'
+alias sysrw='busybox mount -o remount,rw /system; mount | grep system'
 alias l='ls -l'
 alias rm='rm -i'
 

@@ -31,3 +31,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # No asssitant for us, please
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.opa.eligible_device=false
+
+# Build busybox
+PRODUCT_PACKAGES += \
+    Busybox
