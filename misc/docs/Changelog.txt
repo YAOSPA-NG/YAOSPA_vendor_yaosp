@@ -1,5 +1,5 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSPA-NG Changelog 1.00 - 02/09/2017
+YAOSPA-NG Changelog 1.01 - 07/09/2017
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Based on AOSPA 7.1.2 NZH54D (synced on 20170822 1359 CET)
@@ -22,6 +22,7 @@ Settings
   - Gestures : Additional off screen "Doze Pulse" gesture
   - Sound : Increasing ring feature
   - Sound : Reorient volume rockers according to screen rotation
+  - Sound : Live volume steps
   - Sound - Other sounds : Charging sounds (fixed)
   - Sound - Other sounds : Charging vibration
   - Sound - Other sounds : Camera shutter sound
@@ -94,6 +95,7 @@ Features
   - Google assistant disabled (back to now on tap, at least that's usable internationally)
   - Added battery icon charging animation
   - Added battery text only charging indicator
+  - Added busybox
   - Faded inactive bluetooth icon
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
