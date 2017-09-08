@@ -8,6 +8,7 @@ Settings
 --------
   - More : Statusbar network indicators (with option to animate arrows with network activity)
   - Display - Show/hide brightness slider in QS panel
+  - Display - Show/hide operator name in statusbar (disabled by default)
   - Display - Font size : allow settings size in 5% steps from 80% to 130%
   - Display - Display size : allow adjusting screen density to smaller sizes and added more steps
   - Display : Expanded Desktop
