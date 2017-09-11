@@ -1,0 +1,191 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+YAOSPA-NG Changelog 1.00 - 02/09/2017
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Based on AOSPA 7.1.2 NZH54D (synced on 20170822 1359 CET)
+
+Settings
+--------
+  - More : Statusbar network indicators (with option to animate arrows with network activity)
+  - Display - Show/hide brightness slider in QS panel
+  - Display - Font size : allow settings size in 5% steps from 80% to 130%
+  - Display - Display size : allow adjusting screen density to smaller sizes and added more steps
+  - Display : Expanded Desktop
+  - Display : Notification light (per-app)
+  - Display : Battery light (separate color for slow/fast charging)
+  - Display : Wake device when charger is un-/plugged
+  - Display - Ambient Display options : advanced doze options (SlimDoze, incl. dt2w on doze, dt2d,
+                                                               fade in/out delays, timeout,
+                                                               handwave, pocketmode...)
+  - Gestures : Double tap to sleep : on NavBar
+  - Gestures : Double tap to sleep : anywhere on lockscreen
+  - Gestures : Additional off screen "Doze Pulse" gesture
+  - Sound : Increasing ring feature
+  - Sound : Reorient volume rockers according to screen rotation
+  - Sound - Other sounds : Charging sounds (fixed)
+  - Sound - Other sounds : Charging vibration
+  - Sound - Other sounds : Camera shutter sound
+  - Buttons : Additional button actions : "Kill foreground app", "Open notifications", "Open qs panel"
+  - Apps : added fastscroll (scrollbar) to application list
+  - Apps - Application Info : show package name
+  - Apps - Application Info : open app when clicking on icon
+  - Battery - Battery Saver : added additional steps (10%, 20%, 25%, 30%)
+  - Security : Quick unlock (only use for 4-digit PINs to avoid lockout !!)
+  - Security : Show/hide battery info on lockscreen when charging (current, voltage and temperature)
+  - Security : Show voice assist or phone shortcut on lockscreen (bottom left)
+  - Security : Show/hide PIN keypad button ripple
+  - Date & time : Show/hide clock (moved from SystemUI tuner)
+  - Date & time : Show/hide seconds (moved from SystemUI tuner)
+  - Date & time : Override clock color
+  - Date & time : Full clock customizations (right/center/left clock, date ...)
+  - Magisk shortcut
+  - Developer options - Webview : support more webview packages than just AOSP
+    (Chrome Stable, Chrome Beta, Chrome Dev, Chrome Canary, Google WebView, AOSP)
+  - Developer options : Switch to enabled/disable ADB over Network
+  - Developer options : Toggle Android debugging notification
+  - Developer options - Window animation scale : set between 0x and 10x in 0.1 steps
+  - Developer options - Transition animation scale : set between 0x and 10x in 0.1 steps
+  - Developer options - Animator duration scale : set between 0x and 10x in 0.1 steps
+  - Developer options : Enable paging in recents
+  - Developer options : SlimRecents
+  - Developer options : Customize device hostname
+  - SystemUI Tuner : Always show
+  - SystemUI Tuner - Navigation bar : added more buttons (power, menu big, ime left/right, Search)
+  - About phone - Status : expose Phone info
+  - About phone : Show Android patch level info
+  - About phone : Show hardware and processor info
+  - About phone : Show memory info
+  - About phone : show current vendor info (for devices with vendor partition)
+
+Phone
+-----
+  - Settings - Sounds & vibration : in call vibration options
+  - Settings : Reverse number lookup
+  - Settings - Calls : Flip to Mute/Reject Call
+  - Settings - Calls : Proximity speaker
+
+Features
+--------
+  - All added features are completely translated into french
+  - All added features are completely translated into german
+  - All added features are completely translated into russian (Victor Lapin)
+  - All added features are completely translated into hungarian (Gondos Lehel)
+  - Icons updated to material design (might still have missed some...)
+  - Ad-blocking hosts file (2017-04-13)
+  - Updated apns-config
+  - Arise/v4a v3.xx support in SELinux enforcing mode (you need to flash the mod)
+  - Smooth spinners in non holo apps
+  - Don't refresh UI when screen is off
+  - Smoother up/download icon animation
+  - Remove unnecessary media files
+  - Clock and date clickable in notification shade
+  - Improve scrolling cache
+  - Show icon of package associated with Toast
+  - Battery-light : only show full when battery is done charging (instead of at 90%)
+  - Added QS tiles (Ambient Display, Sync, Music, ADB over network, USB tether, Screenshot,
+                    Caffeine, Brightness, Reboot/Recovery, IME selector, Sound, 3-way DND,
+                    Expanded desktop, Advanced location, screen off, compass)
+  - Added QS tile option for 3,4,5 tiles per row
+  - Added download speed and eta to expanded download provider notification
+  - Packageinstaller : show current and new version (may be overwritten by gapps)
+  - Batterystats: never show unnacounted and over-counted
+  - Added Running Services shortcut icon to notification/qs panel
+  - Substratum support (additional resources/assets exposed)
+  - Google assistant disabled (back to now on tap, at least that's usable internationally)
+  - Added battery icon charging animation
+  - Added battery text only charging indicator
+  - Faded inactive bluetooth icon
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+OnePlus 3/3t - Kernel changes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  - /proc/config.gz support
+  - Westwood TCP congestion control default
+  - Added LCD KCAL v2
+  - Added forced fast charge (USB 900mAh)
+
+OnePlus 3/3t - Device changes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  - Default density set to 320dpi
+  - Enable doze tilt trigger (pickup alternative since lacking real pickup sensor)
+  - Enable doze proximity trigger (handwave & pocket mode)
+  - Enable multicolor intrusive notification & battery LED support
+  - Enable KCAL by default on boot
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Huawei Angler - Kernel changes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  - /proc/config.gz support
+  - Westwood TCP congestion control default
+  - Added LCD KCAL
+  - Added fiops scheduler
+  - Added lz4 compressor/decompressor for zswap
+  - Added kernel exFAT support
+  - Added kernel NTFS support
+
+Huawei Angler - Device changes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  - Fix fingerprint swipe gesture in landscape
+  - Enable doze proximity trigger (handwave & pocket mode)
+  - Enable multicolor intrusive notification & battery LED support
+  - Enable KCAL by default on boot
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+LG Bullhead - Kernel changes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  - based on AOSPA bullhead kernel as of 2017-09-01
+  - zram: Use lz4 as default compressor
+  - add source-based ntfs filesystem support
+  - add source-based exfat filesystem support
+  - XZ kernel compression
+  - /proc/config.gz support
+  - Westwood TCP congestion control default
+  - KCAL support
+  - FIOPS I/O scheduler
+  - bluetooth related improvements
+
+LG Bullhead - Device changes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  - Incread zram to 768Mb
+  - Kill off some logs
+  - Fix fingerprint swipe gesture in landscape
+  - Enable doze proximity trigger (handwave & pocket mode)
+  - Enable multicolor intrusive notification & battery LED support
+  - Enable KCAL by default on boot
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Motorola Shamu - Kernel changes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  - Nothing yet
+
+Motorola Shamu - Device changes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  - Enable doze proximity trigger (handwave & pocket mode)
+  - Enable multicolor intrusive notification & battery LED support
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+LG Hammerhead - Kernel changes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  - Nothing yet
+
+LG Hammerhead - Device changes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  - Enable doze proximity trigger (handwave & pocket mode)
+  - Enable multicolor intrusive notification & battery LED support
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

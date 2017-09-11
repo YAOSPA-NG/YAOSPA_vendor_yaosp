@@ -1,0 +1,25 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+YAOSPA-NG Known Issues as of 04/09/2017
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Severe (reboots)
+----------------
+
+- no known issue
+
+
+High priority (causing crashes)
+-------------------------------
+
+- no known issue
+
+
+Normal priority (stuff we can live with for now)
+------------------------------------------------
+
+- OnePlus 3/3t : kernel not reporting charging details (voltage/current), impacts LEDs and lockscreen info
+
+Low priority (like design glitches...)
+--------------------------------------
+
+- no known issue
