@@ -8,7 +8,6 @@ echo "--------------------------------------------------------------------------
 echo "Setting up environment to build AOSPA"
 echo "-----------------------------------------------------------------------------"
 
-cd /home/yank555-lu/android/git/PA
 rm out/target/product/*/system/build.prop
 source build/envsetup.sh
 croot
