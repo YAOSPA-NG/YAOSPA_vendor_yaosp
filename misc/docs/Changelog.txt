@@ -1,11 +1,12 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSPA-NG Changelog 1.02 - 10/09/2017
+YAOSPA-NG Changelog 1.02 - 13/09/2017
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Based on AOSPA 7.1.2 NZH54D (synced on 20170822 1359 CET)
 
 Settings
 --------
+  - More - Mobile networks : Use small/big roaming indicator in statusbar
   - More : Statusbar network indicators (with option to animate arrows with network activity)
   - Display : Show/hide brightness slider in QS panel
   - Display : Show/hide operator name in statusbar (disabled by default)
