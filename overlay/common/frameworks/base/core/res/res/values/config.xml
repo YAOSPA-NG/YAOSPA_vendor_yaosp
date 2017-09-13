@@ -19,4 +19,7 @@
         checkbox in Settings. When false, there is no option to show operator
         name (no checkbox in Settings). -->
     <bool name="config_showOperatorNameInStatusBar">true</bool>
+
+    <!-- Whether safe headphone volume is enabled or not (country specific). -->
+    <bool name="config_safe_media_volume_enabled">false</bool>
 </resources>

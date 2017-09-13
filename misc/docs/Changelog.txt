@@ -101,6 +101,7 @@ Features
   - Added battery text only charging indicator
   - Added busybox
   - Faded inactive bluetooth icon
+  - Disabled safe headphone volume
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
