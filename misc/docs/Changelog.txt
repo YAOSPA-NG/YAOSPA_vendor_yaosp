@@ -35,6 +35,7 @@ Settings
   - Apps - Application Info : show package name
   - Apps - Application Info : open app when clicking on icon
   - Battery - Battery Saver : added additional steps (10%, 20%, 25%, 30%)
+  - Battery : reorder menu items (move Battery optimisation to action, Battery style into menu)
   - Security : Quick unlock (only use for 4-digit PINs to avoid lockout !!)
   - Security : Show/hide battery info on lockscreen when charging (current, voltage and temperature)
   - Security : Show voice assist or phone shortcut on lockscreen (bottom left)
