@@ -1,8 +1,8 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSPA-NG Changelog 1.02 - 13/09/2017
+YAOSPA-NG Changelog 1.10 - 19/09/2017
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Based on AOSPA 7.1.2 NZH54D (synced on 20170822 1359 CET)
+Based on AOSPA 7.1.2 NZH54D (synced on 20170918 0036 CET)
 
 Settings
 --------
@@ -103,6 +103,7 @@ Features
   - Added busybox
   - Faded inactive bluetooth icon
   - Disabled safe headphone volume
+  - Add complete Sept. Patch as extracted from 8.0.0 by LineageOS
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -113,6 +114,7 @@ OnePlus 3/3t - Kernel changes
   - Westwood TCP congestion control default
   - Added LCD KCAL v2
   - Added forced fast charge (USB 900mAh)
+  - Fix BlueBorne vulnerability (CVE-2017-1000251)
 
 OnePlus 3/3t - Device changes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -135,6 +137,7 @@ Huawei Angler - Kernel changes
   - Added lz4 compressor/decompressor for zswap
   - Added kernel exFAT support
   - Added kernel NTFS support
+  - Fix BlueBorne vulnerability (CVE-2017-1000251)
 
 Huawei Angler - Device changes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -159,6 +162,7 @@ LG Bullhead - Kernel changes
   - KCAL support
   - FIOPS I/O scheduler
   - bluetooth related improvements
+  - Fix BlueBorne vulnerability (CVE-2017-1000251)
 
 LG Bullhead - Device changes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -175,7 +179,7 @@ LG Bullhead - Device changes
 Motorola Shamu - Kernel changes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-  - Nothing yet
+  - Fix BlueBorne vulnerability (CVE-2017-1000251)
 
 Motorola Shamu - Device changes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -188,7 +192,7 @@ Motorola Shamu - Device changes
 LG Hammerhead - Kernel changes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-  - Nothing yet
+  - Fix BlueBorne vulnerability (CVE-2017-1000251)
 
 LG Hammerhead - Device changes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
