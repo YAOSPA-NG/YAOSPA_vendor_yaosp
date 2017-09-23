@@ -17,6 +17,10 @@ include vendor/yaosp/configs/system_additions.mk
 # Include vendor overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/yaosp/overlay/common
 
+# Use global common APN list
+PRODUCT_COPY_FILES += \
+    vendor/yaosp/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml
+
 # Use ad-blocking hosts file
 PRODUCT_COPY_FILES += \
     vendor/yaosp/prebuilt/etc/hosts:system/etc/hosts
