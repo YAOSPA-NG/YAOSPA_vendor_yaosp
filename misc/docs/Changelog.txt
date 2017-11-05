@@ -32,6 +32,7 @@ Settings
   - Sound - Other sounds : Camera shutter sound
   - Buttons : Additional button actions : "Kill foreground app", "Open notifications", "Open qs panel"
   - Apps : added fastscroll (scrollbar) to application list
+  - Apps - Advanced settings : Recents options (Enable paging in recents / SlimRecents)
   - Apps - Application Info : show package name
   - Apps - Application Info : open app when clicking on icon
   - Battery - Battery Saver : added additional steps (10%, 20%, 25%, 30%)
@@ -52,8 +53,6 @@ Settings
   - Developer options - Window animation scale : set between 0x and 10x in 0.1 steps
   - Developer options - Transition animation scale : set between 0x and 10x in 0.1 steps
   - Developer options - Animator duration scale : set between 0x and 10x in 0.1 steps
-  - Developer options : Enable paging in recents
-  - Developer options : SlimRecents
   - Developer options : Customize device hostname
   - SystemUI Tuner : Always show
   - SystemUI Tuner - Navigation bar : added more buttons (power, menu big, ime left/right, Search)
@@ -104,6 +103,8 @@ Features
   - Faded inactive bluetooth icon
   - Disabled safe headphone volume
   - Add complete Sept. Patch as extracted from 8.0.0 by LineageOS
+  - Fix elevation of privilege vulnerability in the Android system / camera (CVE-2017-0822)
+  - Fix wpa2 Krack vulnerability
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -115,6 +116,8 @@ OnePlus 3/3t - Kernel changes
   - Added LCD KCAL v2
   - Added forced fast charge (USB 900mAh)
   - Fix BlueBorne vulnerability (CVE-2017-1000251)
+  - Bluetooth: Properly check L2CAP config option output buffer length (part of Blueborne)
+  - Fix wpa2 Krack vulnerability
 
 OnePlus 3/3t - Device changes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -138,6 +141,8 @@ Huawei Angler - Kernel changes
   - Added kernel exFAT support
   - Added kernel NTFS support
   - Fix BlueBorne vulnerability (CVE-2017-1000251)
+  - Bluetooth: Properly check L2CAP config option output buffer length (part of Blueborne)
+  - Fix wpa2 Krack vulnerability
 
 Huawei Angler - Device changes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -163,6 +168,8 @@ LG Bullhead - Kernel changes
   - FIOPS I/O scheduler
   - bluetooth related improvements
   - Fix BlueBorne vulnerability (CVE-2017-1000251)
+  - Bluetooth: Properly check L2CAP config option output buffer length (part of Blueborne)
+  - Fix wpa2 Krack vulnerability
 
 LG Bullhead - Device changes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -180,6 +187,8 @@ Motorola Shamu - Kernel changes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   - Fix BlueBorne vulnerability (CVE-2017-1000251)
+  - Bluetooth: Properly check L2CAP config option output buffer length (part of Blueborne)
+  - Fix wpa2 Krack vulnerability
 
 Motorola Shamu - Device changes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -193,6 +202,8 @@ LG Hammerhead - Kernel changes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   - Fix BlueBorne vulnerability (CVE-2017-1000251)
+  - Bluetooth: Properly check L2CAP config option output buffer length (part of Blueborne)
+  - Fix wpa2 Krack vulnerability
 
 LG Hammerhead - Device changes
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
