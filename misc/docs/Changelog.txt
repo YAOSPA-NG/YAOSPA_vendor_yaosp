@@ -1,8 +1,8 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSPA-NG Changelog 1.20 - 12/10/2017
+YAOSPA-NG Changelog 1.30 - 09/11/2017
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Based on AOSPA 7.1.2 NZH54D (synced on 20171011 2333 CET)
+Based on AOSPA 7.1.2 NZH54D (synced on 20171109 2027 CET)
 
 Settings
 --------
