@@ -27,10 +27,10 @@ PRODUCT_COPY_FILES += \
 
 # Add YAOSPA version
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.yaosp.version=1.31 \
+    ro.yaosp.version=1.35 \
     ro.yaosp.branch=7.1.2 \
     ro.yaosp.buildbase=NZH54D \
-    ro.yaosp.builddate=2017-11-20
+    ro.yaosp.builddate=2017-12-10
 
 # No asssitant for us, please
 PRODUCT_PROPERTY_OVERRIDES += \

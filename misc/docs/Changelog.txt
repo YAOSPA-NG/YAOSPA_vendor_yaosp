@@ -1,5 +1,5 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSPA-NG Changelog 1.31 - 20/11/2017
+YAOSPA-NG Changelog 1.35 - 10/12/2017
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Based on AOSPA 7.1.2 NZH54D (synced on 20171109 2027 CET)
@@ -103,6 +103,9 @@ Features
   - Faded inactive bluetooth icon
   - Disabled safe headphone volume
   - Add complete Sept. Patch as extracted from 8.0.0 by LineageOS
+  - Add complete Oct. Patch as extracted by LineageOS
+  - Add complete Nov. Patch as extracted by LineageOS
+  - Add complete Dec. Patch as extracted by LineageOS
   - Fix elevation of privilege vulnerability in the Android system / camera (CVE-2017-0822)
   - Fix wpa2 Krack vulnerability
 
