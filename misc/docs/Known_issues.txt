@@ -23,6 +23,4 @@ Normal priority (stuff we can live with for now)
 Low priority (like design glitches...)
 --------------------------------------
 
-- QS tiles editor - menu text is white on white on AOSPA-theme engine
-        frameworks/base/packages/SystemUI/src/com/android/systemui/qs/customize/QSCustomizer.java
-        frameworks/base/packages/SystemUI/res/menu/qs_customize_menu.xml
+- no known issue
