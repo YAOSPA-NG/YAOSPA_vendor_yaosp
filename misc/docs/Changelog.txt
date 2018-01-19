@@ -77,7 +77,7 @@ Features
   - All added features are completely translated into russian (Victor Lapin)
   - All added features are completely translated into hungarian (Gondos Lehel)
   - Icons updated to material design (might still have missed some...)
-  - Ad-blocking hosts file (2017-04-13)
+  - Ad-blocking hosts file (2018-01-18, 109895 blocked entries)
   - Updated apns-config
   - Arise/v4a v3.xx support in SELinux enforcing mode (you need to flash the mod)
   - Smooth spinners in non holo apps
