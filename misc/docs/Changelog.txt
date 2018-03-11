@@ -1,5 +1,5 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSPA-NG Changelog 1.40 - 09/03/2018
+YAOSPA-NG Changelog 1.41 - 11/03/2018
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Based on AOSPA 7.1.2 NZH54D (synced on 20171109 2027 CET)
@@ -112,6 +112,9 @@ Features
   - Add complete Jan. Patch as extracted by LineageOS
   - Add complete Feb. Patch as extracted by LineageOS
   - Add complete Mar. Patch as extracted by LineageOS
+  - Add support for Android P's preview "edit" action in screenshot notification
+    (get Google's modded Markup apk from the xda thread :
+     https://forum.xda-developers.com/android/apps-games/app-google-markup-android-p-arm64-t3760345)
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
