@@ -1,5 +1,5 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSPA-NG Changelog 1.41 - 11/03/2018
+YAOSPA-NG Changelog 1.42 - 16/03/2018
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Based on AOSPA 7.1.2 NZH54D (synced on 20171109 2027 CET)
@@ -26,6 +26,7 @@ Settings
   - Gestures : Additional off screen "Doze Pulse" gesture
   - Sound : Increasing ring feature
   - Sound : Reorient volume rockers according to screen rotation
+  - Sound : Volume rockers always control media volume
   - Sound : Live volume steps
   - Sound - Other sounds : Charging sounds (fixed)
   - Sound - Other sounds : Charging vibration
