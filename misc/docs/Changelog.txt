@@ -1,5 +1,5 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-YAOSPA-NG Changelog 1.42 - 16/03/2018
+YAOSPA-NG Changelog 1.43 - 02/04/2018
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Based on AOSPA 7.1.2 NZH54D (synced on 20171109 2027 CET)
@@ -32,7 +32,7 @@ Settings
   - Sound - Other sounds : Charging vibration
   - Sound - Other sounds : Camera shutter sound
   - Boutons : Slider silent mode (alarms only / total silence)
-  - Buttons : Additional button actions : "Kill foreground app", "Open notifications", "Open qs panel"
+  - Buttons : Additional button actions : "Kill foreground app", "Open/Close notifications", "Open/Close qs panel"
   - Apps : added fastscroll (scrollbar) to application list
   - Apps - Advanced settings : Recents options (Enable paging in recents / SlimRecents)
   - Apps - Application Info : show package name
@@ -46,6 +46,7 @@ Settings
   - Date & time : Show/hide clock (moved from SystemUI tuner)
   - Date & time : Show/hide seconds (moved from SystemUI tuner)
   - Date & time : Override clock color
+  - Date & time : Customize lockscreen clock color
   - Date & time : Full clock customizations (right/center/left clock, date ...)
   - Magisk shortcut
   - Developer options - Webview : support more webview packages than just AOSP
